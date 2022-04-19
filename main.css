@@ -2,3 +2,7 @@ body {
   background-color: #131145;
   color: #b55d19;
 }
+
+div {
+  border: 5px wheat;
+}
