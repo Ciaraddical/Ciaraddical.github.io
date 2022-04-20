@@ -2,6 +2,7 @@ body {
   background-image: url("images/image-3.jpg");
   background-position: center top;
   color: white;
+  background-color: black;
   font-family: verdana, sans-serif;
 }
 
