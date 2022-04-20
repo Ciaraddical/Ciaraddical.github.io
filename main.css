@@ -22,18 +22,33 @@ text-align: center;
 
 }
 li {
-  display: inline;
-  border-right: 1px solid white;
+  display: inline-block;
+  border-right: 2px solid white;
   padding: 0;
   margin: 0;
+}
+
+.left-border {
+  border-left: 2px solid white;
 }
 li a {
   display: inline-block;
   text-decoration: none;
   padding: 10px 30px;
+  color: white;
 }
+
+li a:visited{
+color:white;
+}
+
 li a:hover {
-  background-color: rgba(203, 203, 203, 0.5)
+  background-color: rgba(203, 203, 203, 0.5);
+  color: black;
+
+}
+.red-border {
+ border: 3px solid red;
 }
 
 img {

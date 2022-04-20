@@ -9,7 +9,7 @@
   <h1>Ciara Duncum (the official website)</h1> 
     
   <ul class="nav-bar">
-    <li><a href="../index.html">Home</a></li>
+    <li class="left-border"><a href="../index.html">Home</a></li>
     <li><a href="../te-houtaewa-template.html">Blog</a></li>
     <li><a href="../about-me.html">About me</a></li>
     <li><a href="/Users/admin/Desktop/Workspace/Ciaraddical.github.io/blog/html-css.html">HTML and CSS</a></li>
@@ -20,19 +20,23 @@
     <h3>21 April 2022</h3>
     <p>
       These terms describe a way of arranging elements, such as paragraphs, images, or buttons, on a webpage. 
-      Inline elements, like links, will display on the same line on a website, and can have items either side. 
+      Inline elements, like links, will display on the same line on a website, and can have items either side. <span class="red-border">
+        For example, this is an inline element. (With a handy dandy red border.)
+      </span>
       Inline elements are unable to be given heights, so that they won't disrupt the arrangement of the lines around them.
       </p>
+      
       <p>The opposite of inline elements are block elements.
       Block elements will always stack on top of each other (like a stack of toy blocks), even if there's room to fit side by side. 
-      They can be given height, and they will default to displaying 100% wide - taking up the whole page.
+      They can be given height, and they will default to displaying 100% wide - taking up the whole page. <div class="red-border">Here's an example of a block element, with that handy border. It's totally messed with the margins of the paragraph underneath, too - unwieldy bastard.</div>
       Elements have a default display mode - for example, paragraphs are block elements, because it makes sense for new paragraphs to be on a new line, and blocks will force a new line.
       </p>
       <p>
       Inline-block takes attributes from both inline and block (as the name might suggest).
       Elements can be displayed on the same line, but their size can be modified to a much greater extent than inline elements. 
-      Inline-block is used often in nav-bars, to display buttons side-by-side, but there's a lot of different uses it could be put to.
+      Inline-block is what I've used to create the nav-bar on this website - here's the relevant code, if you're interested.
      </p> 
+<img src="../images/code-screenshot-1.png">
      <p>All hail inline-block.
     </p>
   </article>
