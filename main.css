@@ -1,8 +1,55 @@
 body {
-  background-color: #131145;
-  color: #b55d19;
+  background-image: url("images/image-3.jpg");
+  background-position: center top;
+  color: white;
+  font-family: verdana, sans-serif;
 }
 
-div {
-  border: 5px wheat;
+p {
+  margin: 50px;
+}
+.nav-bar {
+list-style-type: none;
+margin: 10px 0;
+padding: 10px 0;
+background-color: rgba(203, 203, 203, 0.4);
+font-size: 25px;
+border-style: solid;
+border-color: white;
+border-width: 2px;
+
+}
+li {
+  display: inline;
+  border-right: 1px solid white;
+  padding: 0px 30px 0px 30px;
+  margin: 0;
+}
+
+img {
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 20px;
+}
+h1 {
+  text-align: center;
+  margin: 50px;
+}
+h2 {
+  margin: 50px;
+}
+
+h3 {
+  margin: 50px;
+}
+h4 {
+  margin: 50px;
+}
+
+article {
+  background-color:rgba(203, 203, 203, 0.4);
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
 }
