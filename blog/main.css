@@ -4,7 +4,7 @@
 
 
 body {
-  background-image: url("../images/morning-sun.avif");
+  background-image: url("../images/sunlight.jpg");
   background-size:cover;
   background-position: center top;
   color: white;
@@ -83,7 +83,7 @@ h4 {
 }
 
 article {
-  background-color:rgba(203, 203, 203, 0.4);
+  background-color:rgba(27, 27, 27, 0.4);
   border-style: solid;
   border-color: white;
   border-width: 2px;
