@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+ .li{
+@apply text-gray-800
+ }
+
+ .li:hover{
+  @apply text-gray-600
+ }
+@tailwind utilities;
