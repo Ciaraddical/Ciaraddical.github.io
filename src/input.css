@@ -6,7 +6,7 @@
  }
 
  .p{
-  @apply pt-8 text-xl
+  @apply pt-8 text-2xl leading-loose
  }
  
 @tailwind utilities;
