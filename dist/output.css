@@ -42,7 +42,7 @@ html {
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Nunito, sans-serif;
   /* 4 */
 }
 
@@ -557,14 +557,16 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.li {
+.nav-item:hover {
   --tw-text-opacity: 1;
-  color: rgb(31 41 55 / var(--tw-text-opacity));
+  color: rgb(243 244 246 / var(--tw-text-opacity));
+  text-decoration-line: underline;
 }
 
-.li:hover {
-  --tw-text-opacity: 1;
-  color: rgb(75 85 99 / var(--tw-text-opacity));
+.p {
+  padding-top: 2rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .static {
@@ -575,13 +577,14 @@ video {
   position: fixed;
 }
 
-.m-12 {
-  margin: 3rem;
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
-.mx-12 {
-  margin-left: 3rem;
-  margin-right: 3rem;
+.mx-16 {
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
 
 .block {
@@ -624,9 +627,9 @@ video {
   border-width: 1px;
 }
 
-.bg-cyan-50 {
+.bg-gray-800 {
   --tw-bg-opacity: 1;
-  background-color: rgb(236 254 255 / var(--tw-bg-opacity));
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 
 .bg-hero {
@@ -645,24 +648,32 @@ video {
   padding: 2.5rem;
 }
 
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
 }
 
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .px-24 {
   padding-left: 6rem;
   padding-right: 6rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
+}
+
+.font-sans {
+  font-family: Nunito, sans-serif;
 }
 
 .text-4xl {
@@ -675,8 +686,17 @@ video {
   line-height: 2rem;
 }
 
-.font-bold {
-  font-weight: 700;
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-normal {
+  font-weight: 400;
 }
 
 .uppercase {
@@ -687,14 +707,23 @@ video {
   text-transform: lowercase;
 }
 
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
+
 .text-cyan-50 {
   --tw-text-opacity: 1;
   color: rgb(236 254 255 / var(--tw-text-opacity));
 }
 
-.text-cyan-900 {
+.text-gray-300 {
   --tw-text-opacity: 1;
-  color: rgb(22 78 99 / var(--tw-text-opacity));
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .outline {

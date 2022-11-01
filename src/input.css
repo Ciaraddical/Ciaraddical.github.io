@@ -1,11 +1,12 @@
 @tailwind base;
 @tailwind components;
- .li{
-@apply text-gray-800
+
+ .nav-item:hover{
+  @apply text-gray-100 underline
  }
 
- .li:hover{
-  @apply text-gray-600
+ .p{
+  @apply pt-8 text-xl
  }
  
 @tailwind utilities;

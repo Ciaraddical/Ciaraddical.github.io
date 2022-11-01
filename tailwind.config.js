@@ -6,6 +6,9 @@ module.exports = {
       backgroundImage: {
         hero: "url('../images/ocean.jpg')",
       },
+      fontFamily: {
+        sans: ['Nunito', 'sans-serif'],
+      },
     },
   },
   plugins: [],
