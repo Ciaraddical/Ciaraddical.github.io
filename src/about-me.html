@@ -2,26 +2,39 @@
   <!DOCTYPE html>
   <head>
     <meta charset="UTF-8">
-    <title>About me</title>
-    <link href="main.css" rel="stylesheet" type="text/css">
+    <html lang="en"></html>
+    <title>Ciara Duncum</title>
+    <link href="../dist/output.css" rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Nunito">
   </head>
-  <body>
-    <h1>Ciara Duncum (the official website)</h1> 
-    
-    <ul class="nav-bar">
-      <li class="left-border"><a href="index.html">Home</a></li>
-      <li><a href="about-me.html">About me</a></li>
-      <li><a href="blog.html">Blog</a></li>
-    </ul> 
-<img src="./images/mug-shot-cropped.jpg" alt="a picture of me smiling at the camera">
+  <body class="bg-hero bg-center bg-cover">
+    <div class="flex flex-row grid-cols-12 gap-x-5 min-h-full mr-32">
+          <div class="flex flex-col basis-1/6 py-10 px-16 bg-gray-800/70">
+            <div class="text-4xl text-cyan-50 font-sans tracking-wide font-semibold"> 
+              <h1 class=>CIARA DUNCUM</h1> 
+            </div>
+            <div class="py-10 text-2xl text-gray-300 font-normal">
+              <ul class="nav-bar">
+                <li class="nav-item py-4"><a href="index.html">HOME</a></li>
+                <li class="nav-item py-4"><a href="about-me.html">ABOUT ME</a></li>
+                <li class="nav-item py-4"><a href="blog.html">BLOG</a></li>
+              </ul>
+            </div>
+          </div>
 
-    <p>
-  Abandoned as a child and raised by badgers until I left to seek my fortune as a web developer, I have been slowly building an empire for myself. Very slowly. It's actually still in the planning stages, but big things are in the works!
-</p>
+          <div class="flex flex-col basis-4/6 grow p-10 mt-28 ml-32 rounded-sm bg-gray-800/70 text-white ">
+            <h1 class="text-4xl">
+              About Me
+            </h1>
+            <div class="flex flex-row">
 
-
+              <p class="p pr-16"> 
+                I'm a software developer with a love of human interaction based in Auckland, New Zealand. I have a background in stage lighting and audio-reactive visuals, and I suffer from a chronic fascination by the intersection between art and technology. I also have a curiosity for using the malleability of web design to present information in ways previously impossible - I find the idea of infinite zooming, controlling the speed and direction of playback, and the possibilities reveal by live feeds endlessly inspiring.
+              </p>
+              <img class="h-96 object-cover rounded-sm" src="../images/me.jpg" alt="An image of the author. She has a shaved head and wears glasses">
+            </div>
+          </div>
+     </div>
   </body>
-
-
-
 </html>

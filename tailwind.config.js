@@ -11,5 +11,10 @@ module.exports = {
       },
     },
   },
+  variants: {
+    extend: {
+      underline: ['hover', 'active'],
+    },
+  },
   plugins: [],
 }

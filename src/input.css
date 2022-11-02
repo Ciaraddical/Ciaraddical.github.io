@@ -4,9 +4,13 @@
  .nav-item:hover{
   @apply text-gray-100 underline
  }
+ /* .nav-item:active{
+  @apply text-gray-100 underline
+ } */
 
  .p{
   @apply pt-8 text-2xl leading-loose
  }
  
 @tailwind utilities;
+@tailwind variants;
